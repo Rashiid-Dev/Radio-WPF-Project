@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Off-Slider.jpg" />
+    <None Remove="On-Slider.jpg" />
+    <None Remove="rsz_1bbc_world_service.png" />
+    <None Remove="rsz_bbc_5_extra.png" />
+    <None Remove="rsz_bbc_5_news.jpg" />
+    <None Remove="rsz_bbc_6_music.png" />
+    <None Remove="rsz_bbc_world_service.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Off-Slider.jpg" />
+    <Resource Include="On-Slider.jpg" />
+    <Resource Include="rsz_1bbc_world_service.png" />
+    <Resource Include="rsz_bbc_5_extra.png" />
+    <Resource Include="rsz_bbc_5_news.jpg" />
+    <Resource Include="rsz_bbc_6_music.png" />
+    <Resource Include="rsz_bbc_world_service.png" />
+  </ItemGroup>
+
+</Project>
